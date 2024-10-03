@@ -24,6 +24,7 @@ int main() {
         // Regula Falsi formula to find the next approximation
         c = ((a * f(b)) - (b * f(a))) / (f(b) - f(a));
         // Update root estimates
+        // this is important 
         a = b;
         b = c;
         printf("\n%d\t\t  %.6f\t  %.6f",  i,c,f(c));
