@@ -6,4 +6,5 @@
 //  a=    b = 
 // f(a)    f(b)
 // c =  a*f(b) - b*f(b)  / f(b)-f(a)
+// precison bhi check krteh hae isme  hae  imp 
 
