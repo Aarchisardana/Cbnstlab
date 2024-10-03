@@ -17,7 +17,7 @@ int main() {
     printf("Enter 2nd root guess: ");
     scanf("%f", &b);
     printf("Enter tolerance: ");
-    scanf("%f", &e);
+    scanf("%f", &error);
     int i = 1;
             printf("Iteration\t\tc\tf(c)");
     do {
