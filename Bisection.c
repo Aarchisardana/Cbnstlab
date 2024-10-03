@@ -3,6 +3,7 @@
 // have used do while loop  isme while kae end  mae semicolon use hogha dont forget
 //math.h hae nah kie maths.h
 //if<0 then x1=x2 dont get confused
+//>0  hie use krnah  rather than >=0   error derah  hae 
 
 #include <stdio.h>
 #include<stdlib.h>
@@ -21,7 +22,7 @@ int main()
     scanf("%f" , &x1);
      printf("enter the error value ");
     scanf("%f" , &error); 
-     if(f(x0)*f(x1) >=0){
+     if(f(x0)*f(x1) >0){
             printf(" no the guess value u have entered does not satisfy the given equation");
             return 1;
         }
