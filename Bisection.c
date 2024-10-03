@@ -4,6 +4,8 @@
 //math.h hae nah kie maths.h
 //if<0 then x1=x2 dont get confused
 //>0  hie use krnah  rather than >=0   error derah  hae 
+ //  phle x1  update hpgha 
+ // then x0 hogha  update
 
 #include <stdio.h>
 #include<stdlib.h>
