@@ -10,11 +10,10 @@
  yehi pass  hoghae dont worry 
    
 
-
-
+code:
 
 #include <stdio.h>
- float f (float x, float y ){
+ float f (float x, float y ){    // yha pae because xcube bhi pass kroghe toh bhi  float y pass krnh pdegah 
       return x+y  ;
  }
    float rungekutta(float x0 , float y0, float h , float x ){
