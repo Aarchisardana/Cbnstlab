@@ -21,7 +21,7 @@
      // logic part  good one 
 
       for(int i=1;  i<subinterval; i++){
-         k= lower + (stepsize*i);
+         k= lower + (stepsize*i);          // most imp line ever 
         integration =  integration + 2 *f(k);
         printf("%f \n",  integration);
       }
