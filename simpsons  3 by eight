@@ -4,7 +4,6 @@ float f(float x)             //function f(x) whose integral is to be calculated
 {
     return 1 / (1 + x * x);;
 } 
-
 int main(){
    float lower, upper,integration=0.0 , h , result ;
    int i, n;  
