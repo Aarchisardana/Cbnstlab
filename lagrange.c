@@ -1,4 +1,11 @@
 // lgarange 
+ // ek voh x vali mistake hoghi thi glti sae 
+//  ans  sahi jgh print kroh  ater for ke j loop
+ //num and den  valeh  code kae time sari vaalue x kie hae kinldy cross verify value put krke  
+//badd mae last mae ans mae hae bs y  to multiply 
+
+
+
 #include <stdio.h>
     int main() {
     int n, X;
