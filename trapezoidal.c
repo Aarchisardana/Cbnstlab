@@ -1,5 +1,4 @@
 // read important pointers  nichae 
-
 #include<stdio.h>
 #include<math.h>                  // this is math.h  not maths .h 
  float f (float x){
