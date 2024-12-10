@@ -16,14 +16,14 @@ int main(){
    integration = f(lower) + f(upper);
     
     for(int i =1 ; i<n ; i++){ 
-         if(i%2==0){
+         if(i%3==0){
               integration =  integration+ 2*f(lower+ h*i);                   //  point to be remember 
          }
           else{
-               integration =  integration+ 4*f(lower+ h*i);
+               integration =  integration+ 3*f(lower+ h*i);
           }
     }
-            result =  (integration*h)/3 ;
+            result =  (integration*h*3)/8 ;
    printf("\nRequired value of integration is: %f", result);
    return 0;
     }
