@@ -1,3 +1,5 @@
+// read important pointers  nichae 
+
 #include<stdio.h>
 #include<math.h>                  // this is math.h  not maths .h 
  float f (float x){
@@ -30,4 +32,5 @@
 
 
 
-and is 0.784241  kinldy check  by putting this  tp verify 
+and is 0.784241  kinldy check by putting this to verify
+ for using pow(x,3) 
