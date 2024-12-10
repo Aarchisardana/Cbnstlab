@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+ float f (float x){
+     return 1/(1+x*x) ;
+ }
+  int  main(){
+       float lower, upper , stepsize , integration = 0.0 , k  ;
+        int subinterval , i  ;
+    printf("Enter lower limit of integration: ");
+    scanf("%f", &lower);
+    printf("Enter upper limit of integration: ");
+    scanf("%f", &upper);
+    printf("Enter number of sub intervals: ");
+    scanf("%d", &subinterval);
+    
+     stepsize= (upper - lower)/subinterval ;
+     integration = f(lower) + f(upper) ;
+
+     // logic part  good one 
+
+      for(int i=1;  i<subinterval; i++){
+         k= lower + (stepsize*i);
+        integration =  integration + 2 *f(k);
+        printf("%f \n",  integration);
+      }
+       integration =  integration * (stepsize/2) ;
+        printf(" so answer is %f" , integration);
+         return 0 ;
+  }
