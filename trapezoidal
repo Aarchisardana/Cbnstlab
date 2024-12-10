@@ -27,3 +27,7 @@
         printf(" so answer is %f" , integration);
          return 0 ;
   }
+
+
+
+and is 0.784241  kinldy check  by putting this  tp verify 
