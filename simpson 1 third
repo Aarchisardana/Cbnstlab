@@ -1,0 +1,35 @@
+simpsons one third 
+
+
+#include <stdio.h>
+#include <math.h>
+float f(float x)             //function f(x) whose integral is to be calculated
+{
+    return 1 / (1 + x * x);;
+} 
+
+int main(){
+   float lower, upper,integration=0.0 , h , result ;
+   int i, n;  
+
+   printf("Enter lower and upper limit of integration: ");
+   scanf("%f %f",&lower,&upper);
+   printf("Enter number of sub intervals: ");
+   scanf("%d", &n);
+   h = (upper-lower)/n;
+   integration = f(lower) + f(upper);
+    
+    for(int i =1 ; i<n ; i++){ 
+         if(i%2==0){
+              integration =  integration+ 2*f(lower+ h*i);                   //  point to be remember 
+         }
+          else{
+               integration =  integration+ 4*f(lower+ h*i);
+          }
+    }
+            result =  (integration*h)/3 ;
+   printf("\nRequired value of integration is: %f", result);
+   return 0;
+    }
+    
+      an sis same 
